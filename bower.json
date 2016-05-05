@@ -1,0 +1,34 @@
+{
+  "name": "tightTranslation",
+  "homepage": "tightdevelopers.com",
+  "description": "translation app for handling direct speech to speech conversion, as well as a chat log",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5",
+    "bootstrap": "^3.3.6",
+    "toastr": "^2.1.2",
+    "angular-ui-router": "^0.2.18"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.css",
+        "less/bootstrap.less"
+      ]
+    }
+  },
+  "authors": [
+    "wesley",
+    "andre",
+    "toby"
+  ]
+}
